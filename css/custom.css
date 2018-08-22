@@ -1,0 +1,57 @@
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Html - Body
+
+******************************/
+
+/*********************
+1. Fonts
+*********************/
+@font-face{
+    font-family: 'Exo-Regular';
+    src: url('../fonts/Exo/Exo-Regular.ttf');
+}
+
+@font-face{
+    font-family: 'YanoneKaffeesatz-Bold';
+    src: url('../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-Bold.ttf');
+}
+
+@font-face{
+    font-family: 'Hybrea-Regular';
+    src: url('../fonts/Hybrea/Hybrea-Regular.ttf');
+}
+
+/*********************
+2. Html - Body
+*********************/
+body {
+	font-family: 'Exo-Regular';
+	margin: 0 auto;
+}
+
+section{
+	margin: 0 auto;
+}
+
+div{
+	float: left;
+	width: 40%;
+	height: 40vh;
+	border: 1px solid black;
+	margin: 20px 20px;
+	background: #c9d6ff; /* fallback for old browsers */
+ 	background: -webkit-linear-gradient(to bottom, #c9d6ff, #e2e2e2); /* Chrome 10-25, Safari 5.1-6 */
+  	background: linear-gradient(to bottom, #c9d6ff, #e2e2e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* div:nth-child(1), div:nth-child(4){
+	border: 1px solid black;
+}
+
+div:nth-child(2), div:nth-child(3){
+	border: 1px solid black;
+} */
